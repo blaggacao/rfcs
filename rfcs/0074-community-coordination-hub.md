@@ -39,8 +39,8 @@ as to potentialize it's desired outcome. You can be leveraged by code, community
 media, capital, labor and other ways. We need to better leverage our community
 resources (tools, knowledge, people).</sub>
 
-# Detailed design
-[design]: #detailed-design
+# Proposal
+[proposal]: #proposal
 
 A repository shall exist, named `NixOS/community`, which will act as central hub
 for coordinating the community's efforts.
@@ -71,14 +71,20 @@ It shall _not_:
 - implement code (but coordinate it's implementation).
 - exhibit established content that best fits into the manual (but call out to it and coordinate working drafts or ideas about it).
 
-To implement, myself, and anyone interested, will review https://github.com/kubernetes/community
-to the smallest details.
+## Implementation
+[implementation]: #implementation
 
-Based on this review, we'll create a clean new repository at
-`NixOS/community`, with what we considered was worth porting from
-[Kubernetes' community portal](https://github.com/kubernetes/community).
+1. The shepherd-leader and shepherd-team self-constitute ad-hoc as a working group.
+2. The working group reviews https://github.com/kubernetes/community in detail.
+3. The working group creates a clean new repository at `NixOS/community`.
+4. The working group or anyone interested opens PRs to that repo with what
+   they consider worth porting or implementing.
+5. PRs are accepted based on consensus within the working group.
+6. The working group freely determins what they consider a beta version of their effort.
+7. The beta version is submitted to the request for comments (RFC) process with the
+   aim to finalize an initial version of the repo.
 
-As a general guideline for this review, we'd acknowledge the success
+As a general guideline for this process, we'd acknowledge the success
 and impressive dynamics of the Kubernetes ecosystem.
 
 ## Brainstorm
